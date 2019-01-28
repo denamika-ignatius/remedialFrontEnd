@@ -46,7 +46,7 @@ class Movie extends Component {
         var tahun = this.refs.tahunEdit.value;
         var description = this.refs.descEdit.value;
 
-        axios.put('http://localhost:1997/editMovie/' + id, {
+        axios.put('http://localhost:1997/editMovies/' + id, {
             nama, tahun, description
         }).then((res) => {
             this.getMovieList();

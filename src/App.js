@@ -14,10 +14,9 @@ class App extends Component {
         <Header navBrand={"MOVIES"} />
         <div>
           <Route exact path ="/" component={Home}/>
-          <Route path ="/movielist" component={Movie}/>
-          <Route path ="/categorylist" component={Category}/>
-          <Route path ="/movcatlist" component={MovCat}/>
-
+          <Route path="/movielist" component={Movie}/>
+          <Route path="/categorylist" component={Category}/>
+          <Route path="/movcatlist" component={MovCat}/>
         </div>
       </div>
     );
