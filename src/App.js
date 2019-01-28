@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Movie from './components/Movie';
 import Category from './components/Category';
 import MovCat from './components/MovCat';
-import { Route } from 'react-router-dom';
+import { Route} from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
@@ -13,10 +13,10 @@ class App extends Component {
       <div className="App">
         <Header navBrand={"MOVIES"} />
         <div>
-          <Route exact path ="/" component={Home}/>
-          <Route path="/movielist" component={Movie}/>
-          <Route path="/categorylist" component={Category}/>
-          <Route path="/movcatlist" component={MovCat}/>
+          <Route exact path ="/" component={Home} />
+          <Route path="/movielist" component={Movie} />
+          <Route path="/categorylist" component={Category} />
+          <Route path="/movcatlist" component={MovCat} />
         </div>
       </div>
     );
